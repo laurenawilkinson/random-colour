@@ -9,9 +9,16 @@
 <body>
     <div id="random-colour">
         <p id="random-hex"></p>
+        <p id="random-rgb"></p>
         <button id="new-colour">NEW COLOUR</button>
     </div>
     <!-- could add radio buttons with presets i.e. reds, blues, greens -->
+    <form id="colour-selectors">
+        <p><input type="radio" name="colour" value="all" class="colour-type" checked><br><span>ALL</span></p>
+        <p><input type="radio" name="colour" value="red" class="colour-type" disabled><br><span>REDS</span></p>
+        <p><input type="radio" name="colour" value="blue" class="colour-type" disabled><br><span>BLUES</span></p>
+        <p><input type="radio" name="colour" value="green" class="colour-type" disabled><br><span>GREENS</span></p>
+    </form>
 </body>
 <script src="random-hex.js"></script>
 </html>
