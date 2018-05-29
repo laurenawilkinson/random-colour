@@ -14,10 +14,21 @@
     </div>
     <!-- could add radio buttons with presets i.e. reds, blues, greens -->
     <form id="colour-selectors">
-        <p><input type="radio" name="colour" value="all" class="colour-type" checked><br><span>ALL</span></p>
-        <p><input type="radio" name="colour" value="red" class="colour-type" disabled><br><span>REDS</span></p>
-        <p><input type="radio" name="colour" value="blue" class="colour-type" disabled><br><span>BLUES</span></p>
-        <p><input type="radio" name="colour" value="green" class="colour-type" disabled><br><span>GREENS</span></p>
+        <p>
+            <input type="radio" name="colour" class="colour-type" id="all" checked><br><label for="all">ALL</label>
+        </p>
+        <p>
+            <input type="radio" name="colour" class="colour-type" id="red"><br><label for="red">REDS</label>
+        </p>
+        <p>
+            <input type="radio" name="colour" class="colour-type" id="yellow"><br><label for="yellow">YELLOWS</label>
+        </p>
+        <p>
+            <input type="radio" name="colour" class="colour-type" id="blue"><br><label for="blue">BLUES</label>
+        </p>
+        <p>
+            <input type="radio" name="colour" class="colour-type" id="green"><br><label for="green">GREENS</label>
+        </p>
     </form>
 </body>
 <script src="random-hex.js"></script>
